@@ -1,0 +1,35 @@
+How does the lazy thing work?
+
+A. Scoring
+Goal: Lowest moves / combo or highest combo / move
+
+B. Deciding teams
+There's several things to consider:
+- Dance set
+- Team order
+- Starting witch
+
+wait that's it?
+Team order has 2 combinations
+Starting witch has 3 combinations
+In total 6 combinations
+
+Total dance has 8 combinations
+
+In total 48 combinations
+
+C. Deciding starting position
+- Total moves is based on movement between starting positions (start / end) / cycle
+Per combination will already have a starting character
+All characters will be aligned to the first formation
+This assumes that the 1st move is moving into formation (1. complete formation)
+
+Every character will have at most 4 moves - total 12 moves max possible
+Min length of team sequence is the sum of all sequences (S)
+Est moves simulated would therefore be S^12
+
+A swap counts as 1
+
+D. Standards
+- Cartesian coordinate system
+- FGC BP notation
